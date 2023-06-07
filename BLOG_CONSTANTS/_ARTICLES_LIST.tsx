@@ -74,7 +74,7 @@ const ARTICLES_LIST: iArticle[] = [
   },
   {
     path: "/pages/tutorial/how-to-deploy-blog.tsx",
-    featureArticle: true,
+    featureArticle: false,
     preview: {
       author: RUPALI,
       date: "August 08 2022",
@@ -90,15 +90,15 @@ const ARTICLES_LIST: iArticle[] = [
     },
   },
   {
-    path: "/pages/tutorial/home-layout.tsx",
+    path: "/pages/blog/we-added-perlin-noise.tsx",
     preview: {
       author: RUPALI,
-      date: "August 14 2022",
-      articleTitle: "Home Layout Example",
-      tags: "demo, layout, home layout",
-      thumbnail: "/public/imp_assets/tutorials/home-layouts.svg",
-      shortIntro: "In this article we will see Default Home Layout example.",
-      category: "layouts",
+      date: "June 2 2023",
+      articleTitle: "We added Perlin Noise!",
+      tags: "perlin noise, map generation, world",
+      thumbnail: "/public/images/perlin noise.png",
+      shortIntro: "We added perlin noise to our Map Generation Algorithm",
+      category: "Villagers",
     },
     seo: {
       title: "Home Layout Example",
@@ -110,15 +110,15 @@ const ARTICLES_LIST: iArticle[] = [
     },
   },
   {
-    path: "/pages/tutorial/blog-with-sidebar-layout.tsx",
+    path: "/pages/blog/using-cellular-automata.tsx",
     preview: {
       author: MAYUR,
-      date: "August 14 2022",
-      articleTitle: "Page Layout for a article with sidebar",
-      tags: "demo, with sidebar, default layout",
-      thumbnail: "/public/imp_assets/tutorials/blog-with-sidebar-layout.svg",
+      date: "June 1 2023",
+      articleTitle: "Using Cellular Automata to generate Caverns",
+      tags: "cellular automata, caverns, world",
+      thumbnail: "/public/images/cautomata.png",
       shortIntro:
-        "In this article we will see Page Layout for a blog with sidebar example.",
+        "I have now created a script in javascript which uses an algorithm called",
       category: "layouts",
     },
     seo: {

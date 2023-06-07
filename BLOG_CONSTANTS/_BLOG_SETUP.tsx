@@ -1,6 +1,6 @@
 import { LogoType, NavbarType } from "../src/shared/enums";
 import { IAuthor, iNavSetup, iSEO } from "../src/shared/interfaces";
-import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 
 /**
  * EXAMPLE AUTHOR
@@ -24,42 +24,34 @@ import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFill
  */
 
 export const MAYUR: IAuthor = {
-    name: "Mayur Nalwala",
-    designation: "Software Engineer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Hazard Game Studios",
+    designation: "Developer",
+    bio: "We make games.",
     profilePic: "",
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/nmayur'
-        },
-        {
-            icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/mayur-nalwala/'
+            link: 'https://github.com/bzeier'
         },
     ]
 }
 
 export const RUPALI: IAuthor = {
-    name: "Rupali Yadav",
-    designation: "IT Analyst",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Hazard Game Studios",
+    designation: "Developer",
+    bio: "We make games.",
     profilePic: "",
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/rupali-yadav'
-        },
-        {
-            icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/rupali-yadav-087bb4112/'
+            link: 'https://github.com/bzeier'
         },
     ]
 }
 
 
 // This can your company name / your name etc for SEO purposes
-export const WEBSITE_NAME: string = 'Next Js Blog Template';
+export const WEBSITE_NAME: string = 'Hazard Game Studios devlog';
 export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
 
 /**
@@ -77,19 +69,13 @@ export const PRIMARY_NAV: iNavSetup = {
     // },
     logo: {
         type: LogoType.TEXT,
-        logo: 'Next Blog',
+        logo: 'HGS Devlog',
     },
     // navLinks are the main navbar links that apper on top of every page
     navLinks: [
         {
             label: 'Home',
             path: '/'
-        },
-        {
-            // for categories don't add path and add type: dropdown and pass path empty
-            label: 'Blog',
-            type: 'dropdown',
-            path: ''
         },
         {
             label: 'About Us',
@@ -144,24 +130,24 @@ export const PRIMARY_NAV: iNavSetup = {
     ],
     socials: [
         {
-            link: 'https://www.facebook.com/',
-            icon: <AiFillFacebook />
-        },
-        {
-            link: 'https://www.instagram.com/',
+            link: 'https://www.instagram.com/hazardgamestudio',
             icon: <AiFillInstagram />
         },
         {
-            link: 'https://twitter.com/WebExpe',
+            link: 'https://twitter.com/hazardgamestudios',
             icon: <AiOutlineTwitter />
+        },
+        {
+            link: 'https://www.youtube.com/@SlingshotStudios-cw5mg',
+            icon: <AiFillYoutube />
         },
     ]
 }
 
 export const DEFAULT_SEO: iSEO = {
-    title: "Nextjs simple blog template",
-    description: "A simple blog template using NextJS and Typescript.",
-    keywords: "Blog, next js, template, next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
+    title: "Hazard Game Studios Devlog",
+    description: "A blog containing my progress on my games",
+    keywords: "Blog, next js, indiegames, games, towns, minecraft, villagers, rpg, hazard game studios",
     url: WEBSITE_URL,
     author: `${MAYUR.name}, ${RUPALI.name}`,
     twitterHandle: '@WebExpe',
